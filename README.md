@@ -1,5 +1,3 @@
-Certainly! Below is a sample README file for your GitHub repository. You can modify it as needed:
-
 ```markdown
 # Image Scraping Project
 
@@ -63,9 +61,13 @@ python app.py
 
 Sunil The Techy
 
+## License
 
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-A Webscraping Project by Sunil The Techy | [LinkedIn](https://www.linkedin.com/in/sunilthetechy/)
+---
+
+A Webscraping Project by Sunil The Techy | [LinkedIn](https://www.linkedin.com/in/your-linkedin-username/)
 ```
 
-
+Replace "your-username" and "your-linkedin-username" with your GitHub username and LinkedIn username, respectively. Also, make sure to update the "License" section if needed.
