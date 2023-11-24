@@ -64,6 +64,6 @@ Sunil The Techy
 ---
 
 A Webscraping Project by Sunil The Techy | [LinkedIn](https://www.linkedin.com/in/sunilthetechy/)
-Website : https://www.sunilyadavtechy@gmail.com
+Website : https://www.sunilyadavtechy.com
 ```
 
