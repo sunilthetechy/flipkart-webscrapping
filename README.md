@@ -1,60 +1,71 @@
-# Flipkart Web Scraping
+Certainly! Below is a sample README file for your GitHub repository. You can modify it as needed:
 
-This Python application uses Flask for the frontend and Pyppeteer for web scraping to extract product information from Flipkart. The user can enter the product name and the number of pages to scrape, and the application will display the scraped data.
+```markdown
+# Image Scraping Project
+
+This project is a simple web scraping application built with Flask. It allows users to input a search query, and the application scrapes images related to the query from Google Images.
 
 ## Prerequisites
 
-- Python 3.x
-- Flask (`pip install flask`)
-- pyppeteer (`pip install pyppeteer`)
+Before you begin, ensure you have the following installed:
+
+- Python (3.x)
+- Flask
+- requests
+- BeautifulSoup (bs4)
+
+Install the required packages using:
+
+```bash
+pip install Flask requests beautifulsoup4
+```
 
 ## Usage
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
-    ```
+```bash
+git clone https://github.com/your-username/image-scraping-project.git
+```
 
-2. Install the required dependencies:
+2. Navigate to the project directory:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+cd image-scraping-project
+```
 
 3. Run the Flask application:
 
-    ```bash
-    python app.py
-    ```
+```bash
+python app.py
+```
 
-4. Open your browser and go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to access the web scraping interface.
+4. Open your web browser and go to [http://localhost:8000](http://localhost:8000).
 
-5. Enter the product name and the number of pages you want to scrape.
+5. Enter a search query and click "Scrape Images."
 
-6. Click the "Scrape" button to initiate the web scraping process.
+6. Check the specified folder for the scraped images.
 
-7. The scraped data will be displayed, and the CSV file will be saved with the product name and timestamp.
+## Project Structure
 
-## Folder Structure
+- **app.py**: Flask application file containing routes and image scraping logic.
+- **templates/index.html**: HTML template for the main page.
+- **templates/result.html**: HTML template for the result page.
+- **static/logo.png**: Logo image for the application.
 
-- `static`: Contains static assets such as the Flipkart logo (`logo.png`).
-- `templates`: Contains HTML templates for the Flask application.
-- `app.py`: Flask application for handling web requests and executing the web scraping script.
-- `scraping1.py`: Web scraping script using Pyppeteer and BeautifulSoup.
+## Acknowledgements
+
+- The application uses Flask for the web framework.
+- Image scraping is done using requests and BeautifulSoup.
+- Styling is based on Google's Material Design.
 
 ## Author
 
-Your Name
+Sunil The Techy
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+A Webscraping Project by Sunil The Techy | [LinkedIn](https://www.linkedin.com/in/sunilthetechy/)
+```
 
-- [Flask](https://flask.palletsprojects.com/)
-- [Pyppeteer](https://github.com/miyakogi/pyppeteer)
-- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
-- [Flipkart](https://www.flipkart.com/)
+
